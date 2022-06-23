@@ -15,9 +15,7 @@ const Navbar = () => {
         <li className={styles.item}>
           <Link to='/addProduct'>Add Product</Link>
         </li>
-        <li className={styles.item}>
-          <Link to='/addProduct'>Edit Product</Link>
-        </li>
+       
       </ul>
     </nav>
   );
